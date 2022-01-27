@@ -1,0 +1,19 @@
+name: EssentialsYZX
+main: LUKAYZX\EssentialsYZX\EssentialsYZX
+author: LUKAYZX
+api: 4.0.0
+version: 1.0.0
+
+permissions:
+  command.broadcast:
+    default: op
+  command.fly:
+    default: op
+  command.feed:
+    default: op
+  command.heal:
+    default: op
+  command.set.warp:
+    default: op
+  command.delete.warp:
+    default: op

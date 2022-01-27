@@ -1,0 +1,79 @@
+# CONFIGURATION FILE #
+
+# EssentialsYZX #
+
+# Author - LUKAYZX #
+
+COMMAND.EXECUTION.NOT.INGAME.ERROR: '§7» §cYou have to execute that command in game.'
+COMMAND.EXECUTION.NO.PERMISSION.ERROR: '§7» §cYou are not allowed to use that command.'
+COMMAND.NOT.FOUND.ERROR: '§7» §cThat command could not be found.'
+COMMAND.EXECUTION.PLAYER.NOT.FOUND.ERROR: '§7» §cThe player could not be found.'
+COMMAND.EXECUTION.NO.PLAYER.GIVEN.ERROR: '§7» §cYou must specify the name of the player you want to send a message to.'
+COMMAND.EXECUTION.NO.MESSAGE.GIVEN.ERROR: '§7» §cYou have not specified a message.'
+COMMAND.EXECUTION.CANNOT.SEND.MESSAGE.YOURSELF.ERROR: '§7» §cYou cannot send a message to yourself.'
+
+# GAMEMODE #
+
+GAMEMODE.COMMAND.DESCRIPTION: 'Changes your gamemode'
+GAMEMODE.HELP:
+  - '§7= - = - = - = - = - = - ='
+  - '§a/gamemode §7[§asurvival§7\§as§7\§a0§7] - §aSwitches your game mode to survival'
+  - '§a/gamemode §7[§acreative§7\§ac§7\§a1§7] - §aSwitches your game mode to creative'
+  - '§a/gamemode §7[§aadventure§7\§as§7\§a2§7] - §aSwitches your game mode to adventure'
+  - §a/gamemode §7[§aspectator§7\§asp§7\§a3§7] - §aSwitches your game mode to spectator'
+  - '§7= - = - = - = - = - = - ='
+SUCCESSFULLY.CHANGED.GAMEMODE: '§7» §aYou successfully switched to gamemode {gamemode}'
+
+# TIME #
+
+DAY.COMMAND.DESCRIPTION: 'Set`s time to 1000'
+NIGHT.COMMAND.DESCRIPTION: 'Set`s time to 13000'
+SUCCESSFULLY.CHANGED.TIME: '§7» §aYou successfully changed the time to {time}'
+
+# MSG / REPLY #
+
+MSG.COMMAND.DESCRIPTION: 'Send`s a message to a player'
+REPLY.COMMAND.DESCRIPTION: 'Replies to a message'
+MSG.FORMAT.SENDER: '§7[ §a{sender} §7] §a-> §7[ §a{receiver} §7] {msg}'
+MSG.FORMST.RECEIVER: '§7[ §a{sender} §7] §a-> §7[ §a{receiver} §7] {msg}'
+NO.MESSAGE.FOR.REPLY: '§7» §cNo message to which you can reply.'
+PLAYER.FOR.REPLY.NOT.ONLINE: '§7» §cYou cannot reply because the player who sent you the message is not online'
+
+# BROADCAST #
+
+BROADCAST.COMMAND.DESCRIPTION: 'Send`s an message to to whole server'
+BROADCAST.FORMAT: '§e§lServer §r§6| §e{msg}'
+
+# WARP #
+
+WARP.COMMAND.DESCRIPTION: 'Teleports you to an warp'
+WARP.NOT.EXISTING: '§7» §cNo warp with that name could be found.'
+WARP.NAME.NOT.GIVEN: '§7» §cYou must specify the name of the warp.'
+WARP.NAME.ILLEGAL: '§7» §cA warp must not use this name.'
+WARPED.SUCCESSFULLY: '§7» §aYou successfully warped to {warp}'
+WARP.CREATED: '§7» §aYou have successfully created {warp} warp.'
+WARP.DELETED: '§7» §cYou have successfully deleted {warp} warp.'
+WARP.LIST.FORMAT: '§aWarps§7: §a{warps}'
+WARP.HELP:
+  - '§7= - = - = - = - = - = - ='
+  - '§a/warp §7[§awarp§7] - §aTeleports you to an warp'
+  - '§a/warp §7[§aset§7] - §aCreates an warp'
+  - '§a/warp §7[§adelete§7\§adel§7] - §aDeletes an warp'
+  - §a/gamemode §7[§alist§7] - §aSends you an list of all warps'
+  - '§7= - = - = - = - = - = - ='
+
+# FLY #
+
+FLY.COMMAND.DESCRIPTION: 'Changes your fly mode'
+FLY.ENABLED: '§7» §aYou successfully turned on fly mode.'
+FLY.DISABLED: '§7» §cYou successfully turned off fly mode.'
+
+# FEED #
+
+FEED.COMMAND.DESCRIPTION: 'Satisfies your hunger'
+HUNGER.SATISFIED: '§7» §aYou have successfully satisfied your hunger.'
+
+# HEAL #
+
+HEAL.COMMAND.DESCRIPTION: 'Heals you'
+SUCCESSFULLY.HEALED: '§7» §aYou have successfully healed yourself.'
